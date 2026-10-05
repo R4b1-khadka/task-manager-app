@@ -1,0 +1,129 @@
+.app {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #666;
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.task-form input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.task-form button {
+    background: #222;
+    color: white;
+}
+
+.task-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.task-header h2 {
+    margin: 0;
+}
+
+.task-header p {
+    color: #666;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.task-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.task-content span {
+    font-size: 16px;
+}
+
+.task-item.completed .task-content span {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.task-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.secondary {
+    background: #eee;
+    color: #222;
+}
+
+.danger {
+    background: #d33;
+    color: white;
+}
+
+.empty {
+    text-align: center;
+    padding: 50px 20px;
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+    color: #777;
+}
+
+.edit-area {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+}
+
+.edit-area input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
