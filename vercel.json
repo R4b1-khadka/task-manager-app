@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:path*",
+            "destination": "https://task-manager-api-rabi9.vercel.app/:path*"
+        }
+    ]
+}
