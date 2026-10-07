@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'https://task-manager-icur5l6pz-rabi9.vercel.app',
         rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
